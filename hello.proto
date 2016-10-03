@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package hello;
+
+service Weather {
+  rpc getWeather (WeatherRequest) returns (WeatherResponse) {}
+}
+
+message WeatherRequest {
+  optional string location = 1;
+}
+
+message WeatherResponse {
+  optional int32 temperature = 1;
+}

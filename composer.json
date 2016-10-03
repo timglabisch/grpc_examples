@@ -1,0 +1,15 @@
+{
+    "name": "tim/grpc_example",
+    "type": "project",
+    "require": {
+        "grpc/grpc": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "timglabisch",
+            "email": "tim@ainfach.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
